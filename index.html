@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Link Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <!--Link Iconos Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!--Link a CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/ico" href="./assets/images/favicon.svg" />
+  <title>Portfolio | Adrian Leonhardt</title>
+</head>
+
+<body>
+
+  <!--Encabezado-->
+  <header>
+    <img class="logo" src="./assets/images/logo.png" alt="Logo" />
+    <button id="abrir" class="abrir-menu">
+      <i class="bi bi-list-nested"></i>
+    </button>
+    <nav class="nav" id="nav">
+      <button id="cerrar" class="cerrar-menu">
+        <i class="bi bi-x-square-fill"></i>
+      </button>
+      <ul class="nav-list">
+        <li><a href="#inicio" onclick="seleccionar()" >Inicio</a></li>
+        <li><a href="#habilidades" onclick="seleccionar()" >Habilidades</a></li>
+        <li><a href="#proyectos" onclick="seleccionar()" >Proyectos</a></li>
+        <li><a href="#contacto" onclick="seleccionar()" >Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Seccion Inicio-->
+  <section id="inicio" class="inicio">
+    <div class="box-central">
+      <div class="imagen-circular">
+        <img class="cara" src="./assets/images/perfil.png" alt="foto de perfil" />
+      </div>
+    </div>
+
+    <div class="central-texto">
+      <h1>Bienvenidos a mi Portfolio</h1>
+      <p>
+        ¡Hola a todos! Mi nombre es Adrián, soy Analista de Sistemas,
+        actualmente me encuentro estudiando y perfeccionando mis
+        conocimientos en programación.<br /><br />
+        Soy una persona apasionada por la tecnologia, la programación, y
+        constantemente me mantengo informado sobre nuevas tecnologias.<br />
+        <br />
+        A lo largo de estos años he estado realizando diferentes cursos,
+        en lugares como UTN, Udemy, Codo a Codo 4.0, Coderhouse en donde
+        he adquerido diferentes conocimientos y herramientas para el
+        desarrollo.
+      </p>
+    </div>
+
+  </section>
+
+  <!--Seccion Habilidades-->
+  <section id="habilidades" class="habilidades">
+
+    <h2>Habilidades</h2>
+    <br />
+    <p>Tengo conocimientos en las siguientes tecnologias:</p>
+    <div class="habilidades-fotos">
+      <img src="./assets/images/html.png" alt="" />
+      <img src="./assets/images/css.png" alt="" />
+      <img src="./assets/images/js.png" alt="" />
+      <img src="./assets/images/react.png" alt="" />
+      <img src="./assets/images/python.png" alt="" />
+      <img src="./assets/images/php.png" alt="" />
+      <img src="./assets/images/sql.png" alt="" />
+      <img src="./assets/images/git.png" alt="" />
+    </div>
+
+  </section>
+
+  <!--Seccion Proyectos-->
+  <section id="proyectos" class="proyectos">
+
+    <h2>Proyectos</h2>
+    <br />
+    <p>Estos son algunos de mis proyectos.</p>
+
+    <div class="proyectos-container">
+      <!--Primer Proyecto-->
+      <div class="box">
+        <div class="box-imagen">
+          <a href="https://adrianleonhardt.github.io/Calculadora_Ifts/" target="_blank">
+            <img src="./assets/images/calcu.png" alt="link a calculadora" />
+          </a>
+        </div>
+        <div class="box-texto">
+          <h3>Calculadora JS</h3>
+          <p>
+            Proyecto de una calculadora simple, hecha con HTMl, CSS, JS.
+            Posee funcionamientos basicos de suma, resta, multiplicacion y
+            division.
+          </p>
+        </div>
+      </div>
+      <!--Segundo Proyecto-->
+      <div class="box">
+
+        <div class="box-imagen">
+          <a href="https://clubdelcafe.vercel.app/" target="_blank">
+            <img src="./assets/images/cdf.png" alt="link a club del cafe" />
+          </a>
+        </div>
+
+        <div class="box-texto">
+          <h3>Club del Café</h3>
+          <p>
+            Proyecto final de Coderhouse, hecha con HTML, SASS, Bootstrap.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Seccion Contacto-->
+  <section id="contacto" class="contacto">
+    
+    <h2>Contacto</h2>
+    <ul class="contacto-lista">
+      <li>
+        <a href="https://www.linkedin.com/in/adrian-leonhardt-a86833137" target="_blank"><i
+            class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/AdrianLeonhardt" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="" target="_blank"><i class="bi bi-envelope"></i></a>
+      </li>
+    </ul>
+
+  </section>
+
+  <!--Seccion Footer-->
+  <footer>
+    <h4>© 2024 Todos los derechos reservados</h4>
+  </footer>
+
+  <script src="./js/navbar.js"></script>
+</body>
+
+</html>
