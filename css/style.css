@@ -432,14 +432,14 @@ footer {
     gap: 0;
   }
   .proyectos .proyectos-container .container {
-    width: 80%;
-    height: 300px;
+    width: 90%;
+    height: auto;
     margin: 8px;
   }
   .proyectos .proyectos-container .container .image img {
     object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 100%;
   }
   .proyectos .proyectos-container .container .text {
     font-size: medium;
