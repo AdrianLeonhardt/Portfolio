@@ -420,6 +420,7 @@ footer {
   }
   .proyectos {
     justify-content: center;
+    text-align: center;
   }
   .proyectos .proyectos-container {
     display: flex;
@@ -433,7 +434,7 @@ footer {
   }
   .proyectos .proyectos-container .container {
     width: 90%;
-    height: auto;
+    height: 100%;
     margin: 8px;
   }
   .proyectos .proyectos-container .container .image img {
