@@ -131,7 +131,7 @@
 
     .proyectos {
         justify-content: center;
-
+            
         .proyectos-container {
             display: flex;
             flex-direction: column;
@@ -159,6 +159,7 @@
                 .text {
                     font-size: medium;
                     letter-spacing: 0px;
+                    padding: 5px;
 
                     h3 {
                         font-size: 1.2rem;
