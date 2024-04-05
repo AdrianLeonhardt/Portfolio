@@ -112,10 +112,9 @@
         padding: 10px;
 
         .habilidades-fotos {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            justify-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
             width: 100%;
             border: 0;
             border-radius: 0;
